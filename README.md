@@ -9,7 +9,7 @@ says, for every weapon and at any frame rate:
 - **Turrets follow the same rule** with structure attack speed (Clockwork Wasp, Improved Tools, Technomage,
   Builder).
 
-Mod id `vergir-TrueAttackSpeed`, for game version 1.2.0.3 (Mod Loader 6.3.0). Works with and without the DLCs,
+Mod id `vergir-TrueAttackSpeed`, for game version 1.2.0.4 (Mod Loader 6.3.0; 1.2.0.3 works too). Works with and without the DLCs,
 in single player and co-op.
 
 ## Why
@@ -50,10 +50,10 @@ Attacks per second with one weapon (unmodded numbers are at 60 FPS):
 | | +0% | 1.12 | 1.12 |
 | | +100% | 1.48 | 2.24 |
 | | +300% | 1.74 | 4.49 |
-| Boomerang I | -100% | 0.45 | 0.29 |
-| | +0% | 0.59 | 0.59 |
-| | +100% | 0.69 | 1.17 |
-| | +300% | 0.75 | 2.34 |
+| Boomerang I | -100% | 0.59 | 0.34 |
+| | +0% | 0.69 | 0.69 |
+| | +100% | 0.75 | 1.37 |
+| | +300% | 0.79 | 2.74 |
 | Turret (structure attack speed) | -50% | 0.91 | 0.81 |
 | | +0% | 1.21 | 1.21 |
 | | +100% | 1.90 | 2.42 |

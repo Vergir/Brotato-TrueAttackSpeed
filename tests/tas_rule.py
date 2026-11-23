@@ -3,13 +3,14 @@ See docs/tests.md.
 
 usage: python true_attack_speed/tests/tas_rule.py   -> tests/out/rule_table.txt and a short table on stdout
 """
-import math, pathlib, re, sys
+import os, math, pathlib, re, sys
 
 sys.path.insert(0, str(pathlib.Path(__file__).parent.parent.parent / "research" / "attack_speed"))
 import model  # noqa: E402
 
 HERE = pathlib.Path(__file__).parent
-WEAPONS = HERE.parent.parent / "game_src" / "weapons"
+# TAS_GAME_SRC: another decompiled copy of the game to read the weapons from.
+WEAPONS = pathlib.Path(os.environ.get("TAS_GAME_SRC", HERE.parent.parent / "game_src")) / "weapons"
 ROMAN = {1: "I", 2: "II", 3: "III", 4: "IV"}
 
 

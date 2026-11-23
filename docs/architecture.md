@@ -1,7 +1,8 @@
 # Architecture
 
 Technical documentation of True Attack Speed (`vergir-TrueAttackSpeed`) for whoever maintains it. Written for
-Brotato 1.2.0.3, Godot 3.7 (GDScript 3), Godot Mod Loader 6.3.0. References such as `weapon_service.gd:231` are
+Brotato 1.2.0.3 and checked again on 1.2.0.4 (which halved the Boomerang's cooldown; the numbers here are
+1.2.0.4's), Godot 3.7 (GDScript 3), Godot Mod Loader 6.3.0. References such as `weapon_service.gd:231` are
 to the game's own scripts.
 
 Contents: [the rule](#the-rule) · [files](#files) · [how each kind is handled](#how-each-kind-is-handled) ·
@@ -97,9 +98,9 @@ Worth knowing before changing the rule:
   until about +80%), Gatling Laser IV up to 11% (at +21%), slow weapons 2 to 3%.
 - The cooldown's 2-tick minimum is gone, so fast weapons keep gaining: Gatling Laser IV +47% over unmodded at
   +100% and +193% at +300%, SMG I +11% and +63%. Slow weapons gain 2 to 9% at +100% to +300%.
-- Whip I: +51% over unmodded at +100%, +158% at +300%. Boomerang I: +71% and +210%.
+- Whip I: +51% over unmodded at +100%, +158% at +300%. Boomerang I: +82% and +245%.
 - Negative Attack Speed costs more than unmodded. At -50%: Gatling Laser IV 24% fewer attacks than unmodded,
-  SMG I 23%, Hatchet I 28%, Whip I 18%, Boomerang I 24%, Pistol I 7%.
+  SMG I 23%, Hatchet I 28%, Whip I 18%, Boomerang I 28%, Pistol I 7%.
 - Turret with cooldown 32: +3.5% over unmodded at +10% structure attack speed, +27% at +100%, +33% at +300%; 12%
   fewer shots at -50%.
 
@@ -377,5 +378,5 @@ Things that cost time to find out:
 - The Drill gains Attack Speed by itself during a wave (+10% every 5 seconds); the card shows the cycle at the
   Attack Speed of the moment.
 - A modded weapon with a shooting behaviour of its own is left as it is.
-- Checked for game 1.2.0.3 only. A game update that changes the shooting behaviours, `turret.gd` or the Mod
+- Checked for game 1.2.0.3 and 1.2.0.4 only. A game update that changes the shooting behaviours, `turret.gd` or the Mod
   Loader needs a new look at the extensions.
