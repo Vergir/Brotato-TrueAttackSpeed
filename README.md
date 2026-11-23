@@ -84,9 +84,9 @@ of a weapon or a turret.
 
 ## Install
 
-Subscribe to "True Attack Speed" on the Steam Workshop (not published yet). The game loads mods only from the
-Workshop folders of items you are subscribed to; the zip attached to a release here is the same file the Workshop
-item contains.
+Subscribe to [True Attack Speed](https://steamcommunity.com/sharedfiles/filedetails/?id=3844942766) on the Steam
+Workshop. The game loads mods only from the Workshop folders of items you are subscribed to; the zip attached to
+a release here is the same file the Workshop item contains.
 
 Compatibility:
 

@@ -71,7 +71,7 @@ Not changed: pets, enemies, how often structures and landmines are placed. More 
 [b]Attack Timing Fix?[/b]
 Both this mod and "Attack Timing Fix" make attacks independent of the frame rate. They differ in what they treat as the correct speed.
 [list]
-[*][b]Attack Timing Fix[/b] makes every weapon attack at the rate the game's own tooltip states. The game never reaches that rate, so with it every weapon is faster than you are used to, even at +0% Attack Speed too: a Hatchet I by about 20%, a Gatling Laser IV by about 70%. The bugs of vanilla Attack Speed also stay: Whip, Flail and Boomerang gain little from Attack Speed and so on.
+[*][b]Attack Timing Fix[/b] makes every weapon attack at the rate the game's own tooltip states. The game never reaches that rate, so with it every weapon is faster than you are used to, even at +0% Attack Speed: a Hatchet I by about 20%, a Gatling Laser IV by about 70%. The bugs of vanilla Attack Speed also stay: Whip, Flail and Boomerang gain little from Attack Speed and so on.
 [*][b]True Attack Speed[/b] keeps +0% exactly as the unmodded game plays at 60 FPS, so the balance you know stays the starting point, and makes Attack Speed proportional from there. The same Gatling Laser fires 8.0 times per second at +0% as before, 16.0 at +100% and 32.0 at +300%.
 [/list]
 
