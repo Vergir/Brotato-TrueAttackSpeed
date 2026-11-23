@@ -14,7 +14,7 @@ sys.path.insert(0, str(ROOT / "research" / "attack_speed"))
 import dkc
 
 MOD = HERE.parent / "mods-unpacked" / "vergir-TrueAttackSpeed"
-TITLE = "True Attack Speed"
+TITLE = "TrueAttackSpeed"
 TAGS = ["Reworks"]
 GALLERY = ["double.png", "curve.png", "fps.png"]
 VISIBILITY = {"public": 0, "friends": 1, "private": 2, "unlisted": 3}

@@ -62,20 +62,20 @@ Not changed: pets, enemies, how often structures and landmines are placed. More 
 
 [h2]Compatibility[/h2]
 [list]
-[*]Game version 1.2.0.4 (1.2.0.3 works too), with and without the DLCs, single player and co-op.
-[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3019195689]Improved Tooltips[/url] is supported: its cooldown line and its Attack Speed breakpoints use this mod's numbers.
+[*]DLCs are supported but are not required
+[*]Works in co-op.
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3019195689]Improved Tooltips[/url] is supported: its cooldown line and its Attack Speed adjust to this mod's numbers.
 [*]Mods that add weapons work as long as their weapons use the game's own gun, melee or animated behaviours.
 [/list]
 
-[h3]True Attack Speed or Attack Timing Fix?[/h3]
-Both mods make attacks independent of the frame rate. They differ in what they treat as the correct speed. (Attack Timing Fix was checked at version 1.2.1.)
-
+[b]Attack Timing Fix?[/b]
+Both this mod and "Attack Timing Fix" make attacks independent of the frame rate. They differ in what they treat as the correct speed.
 [list]
-[*][b]Attack Timing Fix[/b] makes every weapon attack at the rate the game's own tooltip states. The unmodded game never reaches that rate, so with it every weapon is faster than you are used to, at +0% Attack Speed too: at 60 FPS a Pistol I by about 4%, a Hatchet I by about 20%, a Gatling Laser IV by about 70%. At +300% the Gatling Laser fires twice as fast as unmodded (22.9 against 10.9 attacks per second). The rules of Attack Speed stay the game's: Whip, Flail and Boomerang still gain little, and -100% is still not half.
+[*][b]Attack Timing Fix[/b] makes every weapon attack at the rate the game's own tooltip states. The game never reaches that rate, so with it every weapon is faster than you are used to, even at +0% Attack Speed too: a Hatchet I by about 20%, a Gatling Laser IV by about 70%. The bugs of vanilla Attack Speed also stay: Whip, Flail and Boomerang gain little from Attack Speed and so on.
 [*][b]True Attack Speed[/b] keeps +0% exactly as the unmodded game plays at 60 FPS, so the balance you know stays the starting point, and makes Attack Speed proportional from there. The same Gatling Laser fires 8.0 times per second at +0% as before, 16.0 at +100% and 32.0 at +300%.
 [/list]
 
-Take Attack Timing Fix if you want the tooltip numbers to be real. Take this mod if you want the game as it plays today, with Attack Speed that is exactly proportional. They change the same scripts, so use one or the other; this mod marks Attack Timing Fix as incompatible.
+They change the same scripts, so use one or the other; this mod marks Attack Timing Fix as incompatible.
 
 [h2]Source code[/h2]
-The source, the tests and the technical documentation are on [url=https://github.com/Vergir/Brotato-TrueAttackSpeed]GitHub[/url], under the MIT license.
+Source code is on [url=https://github.com/Vergir/Brotato-TrueAttackSpeed]GitHub[/url], under the MIT license.
