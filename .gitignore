@@ -1,0 +1,9 @@
+# working notes: history, old results, decisions (not published)
+docs/history.md
+# test outputs
+tests/out/
+# build output
+*.zip
+__pycache__/
+# images made by workshop/make_images.py (they contain game art and screenshots)
+workshop/out/

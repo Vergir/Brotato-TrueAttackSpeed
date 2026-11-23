@@ -1,0 +1,81 @@
+[h1]True Attack Speed[/h1]
+Attack Speed does what it says: +100% is twice the attacks, for every weapon and at any frame rate.
+
+[h2]Features[/h2]
+[list]
+[*][b]Attack Speed gives exactly as much speed as it states.[/b] +100% is twice the attacks, +300% is four times, -100% is half. That fixes:
+[list]
+[*]fast weapons (SMG, Gatling Laser) gaining nothing from high Attack Speed;
+[*]the first point of Attack Speed giving a jump in speed and the next points much less;
+[*]Attack Speed doing very little for the Whip, Flail and Boomerang;
+[*]negative Attack Speed slowing attacks by less than it states;
+[*]turrets getting less than the stated bonus from structure attack speed (Improved Tools, Clockwork Wasp, Technomage).
+[/list]
+[*][b]Weapons attack equally fast at any frame rate.[/b] Unmodded, every weapon attacks slower at a lower frame rate.
+[*][b]Weapon cards show the real time between attacks[/b] in their cooldown line.
+[*][b]At +0% Attack Speed nothing changes[/b]: weapons attack exactly as fast as in the unmodded game at 60 FPS.
+[/list]
+
+[h2]Numbers[/h2]
+Attacks per second with one weapon (unmodded numbers are at 60 FPS):
+
+[code]
+Weapon             Attack Speed   Unmodded   With the mod
+Gatling Laser IV     +0%           8.00       8.00
+Gatling Laser IV   +100%          10.91      16.00
+Gatling Laser IV   +300%          10.91      32.00
+SMG I                +0%           4.44       4.44
+SMG I              +100%           8.00       8.89
+SMG I              +300%          10.91      17.78
+Pistol I             +0%           0.79       0.79
+Pistol I           +100%           1.52       1.59
+Pistol I           +300%           2.93       3.18
+Whip I               +0%           1.12       1.12
+Whip I             +100%           1.48       2.24
+Whip I             +300%           1.74       4.49
+Boomerang I          +0%           0.59       0.59
+Boomerang I        +100%           0.69       1.17
+Boomerang I        +300%           0.75       2.34
+Gatling Laser IV   -100%           6.32       4.00
+Pistol I           -100%           0.44       0.40
+Turret               +0%           1.21       1.21
+Turret             +100%           1.90       2.42
+[/code]
+
+[h2]Why the unmodded game is off[/h2]
+An attack is a short swing or recoil followed by a cooldown, and Attack Speed only works properly on the cooldown. The swing or recoil barely gets shorter and is timed on rendered frames, so the faster a weapon already is, the less Attack Speed does for it, and the lower your frame rate, the slower it attacks.
+
+[h2]What changes for your runs[/h2]
+The mod is a fix. The balance shifts a little as a side effect:
+
+[list]
+[*][b]Fast weapons keep gaining from Attack Speed.[/b] Unmodded, Gatling Laser gains nothing after about +20% and an SMG nothing between +100% and +200%.
+[*][b]Whip, Flail and Boomerang gain the most[/b], because unmodded most of their attack ignores Attack Speed.
+[*][b]Negative Attack Speed costs more[/b] than in the unmodded game.
+[*][b]The first points of Attack Speed are worth less.[/b] Unmodded, most weapons get a jump from the very first point. Here +1% is 1%, so at low Attack Speed some weapons are a little slower than unmodded.
+[*][b]60 FPS is the reference.[/b] Unmodded, weapons attack faster at a higher frame rate and slower at a lower one: at 144 FPS a Hatchet I by 14% and a Gatling Laser IV by 50%. With the mod everybody gets the 60 FPS speed.
+[/list]
+
+A character that starts at +0% Attack Speed starts exactly as before. Dwarf, Ogre and Lucky start with negative Attack Speed and are slightly harder; One Armed starts with +200% and is slightly easier.
+
+Not changed: pets, enemies, how often structures and landmines are placed. More Range still makes a melee swing take longer, as in the unmodded game.
+
+[h2]Compatibility[/h2]
+[list]
+[*]Game version 1.2.0.3, with and without the DLCs, single player and co-op.
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3019195689]Improved Tooltips[/url] is supported: its cooldown line and its Attack Speed breakpoints use this mod's numbers.
+[*]Mods that add weapons work as long as their weapons use the game's own gun, melee or animated behaviours.
+[/list]
+
+[h3]True Attack Speed or Attack Timing Fix?[/h3]
+Both mods make attacks independent of the frame rate. They differ in what they treat as the correct speed. (Attack Timing Fix was checked at version 1.2.1.)
+
+[list]
+[*][b]Attack Timing Fix[/b] makes every weapon attack at the rate the game's own tooltip states. The unmodded game never reaches that rate, so with it every weapon is faster than you are used to, at +0% Attack Speed too: at 60 FPS a Pistol I by about 4%, a Hatchet I by about 20%, a Gatling Laser IV by about 70%. At +300% the Gatling Laser fires twice as fast as unmodded (22.9 against 10.9 attacks per second). The rules of Attack Speed stay the game's: Whip, Flail and Boomerang still gain little, and -100% is still not half.
+[*][b]True Attack Speed[/b] keeps +0% exactly as the unmodded game plays at 60 FPS, so the balance you know stays the starting point, and makes Attack Speed proportional from there. The same Gatling Laser fires 8.0 times per second at +0% as before, 16.0 at +100% and 32.0 at +300%.
+[/list]
+
+Take Attack Timing Fix if you want the tooltip numbers to be real. Take this mod if you want the game as it plays today, with Attack Speed that is exactly proportional. They change the same scripts, so use one or the other; this mod marks Attack Timing Fix as incompatible.
+
+[h2]Source code[/h2]
+The source, the tests and the technical documentation are on [url=https://github.com/Vergir/Brotato-TrueAttackSpeed]GitHub[/url], under the MIT license.

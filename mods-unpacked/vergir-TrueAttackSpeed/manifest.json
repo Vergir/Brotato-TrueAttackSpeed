@@ -1,0 +1,33 @@
+{
+	"name": "TrueAttackSpeed",
+	"namespace": "vergir",
+	"version_number": "1.0.0",
+	"description": "Attack Speed does what it says: +100% Attack Speed is twice the attacks, +300% four times, -100% half, for every weapon and at any frame rate. Turrets follow the same rule with structure attack speed. At +0% everything attacks exactly as fast as in the unmodded game at 60 FPS.",
+	"website_url": "https://github.com/Vergir/Brotato-TrueAttackSpeed",
+	"dependencies": [],
+	"extra": {
+		"godot": {
+			"authors": [
+				"vergir"
+			],
+			"optional_dependencies": [
+				"_wl-ImprovedTooltips"
+			],
+			"compatible_game_version": [
+				"1.2.0.3"
+			],
+			"compatible_mod_loader_version": [
+				"6.3.0"
+			],
+			"incompatibilities": [
+				"TioPlato-AttackTimingFix"
+			],
+			"load_before": [],
+			"tags": [
+				"Gameplay"
+			],
+			"config_schema": {},
+			"description_rich": ""
+		}
+	}
+}

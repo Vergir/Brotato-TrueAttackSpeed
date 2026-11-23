@@ -1,0 +1,10 @@
+{
+	"character": "character_well_rounded",
+	"weapons": ["weapon_pistol_1"],
+	"wave": 1,
+	"danger": 0,
+	"invulnerable": true,
+	"mods": ["vergir-TrueAttackSpeed"],
+	"debug": {"custom_wave_duration": 3000, "no_enemies": true},
+	"setup": ["ProgressData.settings.manual_aim = true"]
+}
