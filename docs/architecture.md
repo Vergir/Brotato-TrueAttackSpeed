@@ -362,8 +362,7 @@ Things that cost time to find out:
 3. Version in `manifest.json`; `compatible_game_version` and `compatible_mod_loader_version` still right.
 4. Build the zip (`dk build vergir-TrueAttackSpeed`): it must contain `mods-unpacked/vergir-TrueAttackSpeed/`
    and nothing else.
-5. GitHub: tag, attach the zip to the release. Workshop: upload needs the game's `modding` beta branch and the
-   uploader started from Steam.
+5. GitHub: tag, attach the zip to the release. Workshop: `workshop/upload.py` ([workshop.md](workshop.md)).
 
 ## Known limits
 

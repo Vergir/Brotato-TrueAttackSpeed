@@ -121,8 +121,9 @@ mods-unpacked/vergir-TrueAttackSpeed/   the mod: manifest, timing.gd (the rule),
 tests/                                  checks that drive a hidden game; they need the author's dev kit
 docs/architecture.md                    technical documentation
 docs/tests.md                           what each test checks and how to run it
-docs/workshop_description.txt           the text of the Steam Workshop page
-workshop/make_images.py                 makes the Workshop page's images
+docs/workshop.md                        the Steam Workshop item and how it is uploaded
+docs/workshop_description.txt           the text of the Workshop page
+workshop/                               makes the page's images and uploads the item
 ```
 
 ## License
